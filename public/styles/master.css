@@ -1,0 +1,154 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Palatino,
+				 Palatino Linotype,
+				 Palatino LT STD,
+				 Book Antiqua,
+				 Georgia,
+				 serif; 
+	}
+ul {
+	padding: 0;
+}
+.Info {
+	position: fixed;
+	max-width: 520px;
+	background: #333;
+	height: 100vh;
+}
+.Info--github {
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	position: relative;
+	top: 8%;
+}
+.Info--github img {
+	max-width: 100px;
+	transition: all ease-out .4s;
+	cursor: pointer;
+}
+.Info--github img:hover { 
+	filter: invert(10);
+ }
+.Nav {
+	width: 100%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 2px;
+	font-size: .75rem;
+	margin-bottom: 100px;
+	padding-top: 10px;
+	border-bottom: 1px solid rgba(0,0,0,0.6);
+}
+.Nav--list {
+	width: 100%;
+	height: 100%;
+}
+.Nav ul li {
+	display: inline-block;
+	text-decoration: none;
+	color: #808080;
+	margin-left: 35px;
+	transition: ease-out .4s;
+	padding: 5px 10px;
+}
+.Nav ul li:hover {
+	color: white;
+	background: #808080;
+}
+.Description {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+.Description--picture {
+	position: relative;
+	display: inline-flex;
+	align-content: center;
+	justify-content: flex-start;
+}
+.Description--picture_left{
+	position: relative;
+	top: 50px;
+	width: 100px;
+	height: 5px;
+	margin-right: 10px;
+	background: #4d4d4d;
+}
+.Description--picture_right{
+	position: relative;
+	top: 50px;
+	width: 100px;
+	height: 5px;
+	margin-left: 10px;
+	background: #4d4d4d;
+}
+.Description--picture_img{
+	background-image: url('../img/profile.jpg');
+	background-size: cover;
+	background-position: 0px -10px;
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	margin-bottom: 20px;
+	filter: saturate(.5);
+	width: 100px;
+	min-height: 100px;
+	box-shadow: 0px 5px 5px rgba(0,0,0,.3);
+}
+.Description--paragraph {
+	color: #b3b3b3;
+	line-height: 2;
+	padding: 20px 80px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size: 0.8rem;
+}
+
+.Name h1 {
+	background-color: #e6e6e6;
+	padding: 20px;
+	text-align: center;
+}
+.Name--job h3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #808080;
+	margin-top: 0px;
+	font-weight: lighter;
+	letter-spacing: 2px;
+}
+.Contact {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #e6e6e6;
+}
+.Contact--social a:hover > img{
+	transform: translateY(-2px) scale(1.4);
+}
+.Contact--email {
+	padding: 15px 0px 0px;
+}
+.Contact--email a {
+	display: inline-block;
+}
+
+.Contact--social a img {
+	filter: saturate(0);
+	margin-top: 10px;
+	width: 25px;
+	transition: all ease-out .3s;
+	margin: 30px;
+}
+
