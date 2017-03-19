@@ -24,11 +24,11 @@ let Description = React.createClass({
 				<div className="Description--picture_right"> </div>
 			</div>
 			<div className="Description--paragraph">
-				<p> 
-					Young and agile front-end developer and designer. 
-					Electrical engineering student. 
-					Constant creator, problem solver, guitarist and artist. 
-					Loves hardware as much as software.  
+				<p>
+					Young and agile front-end developer and designer.
+					Electrical engineering student.
+					Constant creator, problem solver, guitarist and artist.
+					Loves hardware as much as software.
 				</p>
 			</div>
 		</div>)
@@ -60,11 +60,11 @@ let Contact = React.createClass({
 let Info = React.createClass({
 	render: () => {
 		return (
-		<div className="Info"> 
+		<div className="Info">
 			<Nav />
 			<Description />
 			<Name />
-			<div className="Info--github"> 
+			<div className="Info--github">
 				<a href="https://github.com/kamilant" ref='noopener noreferrer' target="_blank">
 					<img src="public/img/social/github.svg" />
 				</a>
@@ -75,11 +75,91 @@ let Info = React.createClass({
 	}
 });
 
+
+let Header = (props) => {
+	return (
+		<div className="Header">
+			<h1>{props.children}</h1>
+		</div>
+	)
+}
+let Footer = (props) => {
+	return (
+		<div>
+			<footer>
+				<div className="Footer--images">
+					<img src=""  alt=""/>
+				</div>
+			</footer>
+		</div>
+	)
+}
+let Holder = (props) => {
+	return (
+		<div className="Holder">
+			<div className="Holder--content">
+				{props.children}
+			</div>
+		</div>
+	)
+}
+let Skill = (props) => {
+	return (
+		<div className="Skill">
+			<img src={props.name} alt={props.name}/>
+		</div>
+	)
+}
+let Content = React.createClass({
+	render: () => {
+		return(
+			<div className="Content">
+				<Header>Skills</Header>
+				<Holder >
+					<div className="Skill--wrapper_tech">
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+					</div>
+					<div className="Skill--wrapper_design">
+
+					<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ai.png" />
+					</div>
+				</Holder>
+				<Footer />
+			</div>
+		)
+	}
+});
+
 let App = React.createClass({
   render: function(){
   return (
   	<div className="App">
     	<Info />
+    	<Content />
   	</div>
   )
 },

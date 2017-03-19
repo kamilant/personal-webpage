@@ -1,0 +1,80 @@
+.Content {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	flex: 1 0 auto;
+	height: 100vh;
+}
+.Header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 150px;
+	background-color: #e6e6e6;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-weight: lighter;
+}
+.Holder {
+	height: 80%;
+	width: 100%;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+}
+.Holder--content {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-content: stretch;
+    margin: auto;
+}
+
+.Skill--wrapper_design {
+	border: 2px solid;
+	order: 2;
+	display: flex;
+	padding: 0px 80px;
+	flex-basis: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 240px;
+}
+.Skill--wrapper_tech {
+	border: 2px solid;
+	order: 1;
+	display: flex;
+	padding: 0px 80px;
+	flex-direction: row;
+	flex-basis: 100%;
+	flex-wrap: wrap;
+	max-width: 240px;
+}
+.Skill {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #e6e6e6;
+	padding: 10px;
+	margin: 10px;
+}
+.Skill img{
+	max-width: 40px;
+}
+footer {
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 150px;
+	background-color: #e6e6e6;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-weight: lighter;
+
+}
