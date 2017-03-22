@@ -88,7 +88,12 @@ let Footer = (props) => {
 		<div>
 			<footer>
 				<div className="Footer--images">
-					<img src=""  alt=""/>
+					<Skill name="public/skills/mongo.png" />
+					<Skill name="public/skills/mongoose.png" />
+					<Skill name="public/skills/bitbucket.png" />
+					<Skill name="public/skills/circle.png" />
+					<Skill name="public/skills/express.png" />
+
 				</div>
 			</footer>
 		</div>
@@ -116,36 +121,30 @@ let Content = React.createClass({
 			<div className="Content">
 				<Header>Skills</Header>
 				<Holder >
-					<div className="Skill--wrapper_tech">
-						<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
+					<div className="Skill--wrapper">
+						<Skill name="public/skills/js.png" />
+						<Skill name="public/skills/es6.png" />
+						<Skill name="public/skills/github.png" />
+						<Skill name="public/skills/nodejs.png" />
+						<Skill name="public/skills/react.png" />
+						<Skill name="public/skills/angular.png" />
+						<Skill name="public/skills/webpack.png" />
+						<Skill name="public/skills/linux.png" />
+						<Skill name="public/skills/syncano.png" />
+						<Skill name="public/skills/jq.png" />
 					</div>
-					<div className="Skill--wrapper_design">
+					<div className="Skill--wrapper">
+						<Skill name="public/skills/ai.png" />
+						<Skill name="public/skills/ps.png" />
+						<Skill name="public/skills/sketch.png" />
+						<Skill name="public/skills/figma.jpg" />
 
-					<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" /><Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
-						<Skill name="public/skills/ai.png" />
+
+					</div>
+					<div className="Skill--wrapper">
+						<Skill name="public/skills/jira.png" />
+						<Skill name="public/skills/slack.png" />
+
 					</div>
 				</Holder>
 				<Footer />

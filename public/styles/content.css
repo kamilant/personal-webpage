@@ -33,23 +33,12 @@
     margin: auto;
 }
 
-.Skill--wrapper_design {
-	border: 2px solid;
-	order: 2;
+.Skill--wrapper {
+	order: 0;
 	display: flex;
-	padding: 0px 80px;
+	padding: 0px 10px;
 	flex-basis: 100%;
 	flex-direction: row;
-	flex-wrap: wrap;
-	max-width: 240px;
-}
-.Skill--wrapper_tech {
-	border: 2px solid;
-	order: 1;
-	display: flex;
-	padding: 0px 80px;
-	flex-direction: row;
-	flex-basis: 100%;
 	flex-wrap: wrap;
 	max-width: 240px;
 }
@@ -59,7 +48,7 @@
 	justify-content: center;
 	background-color: #e6e6e6;
 	padding: 10px;
-	margin: 10px;
+	margin: 4px;
 }
 .Skill img{
 	max-width: 40px;

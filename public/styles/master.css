@@ -21,3 +21,12 @@ ul {
 display: flex;
 justify-content: flex-end;
 }
+.Footer--images img {
+	max-width: 80px;
+	max-height: 50px;
+}
+.Footer--images {
+	display: inline-flex;
+	align-content: center;
+	justify-content: center;
+}
