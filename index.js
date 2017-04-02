@@ -5,10 +5,10 @@ let Nav = React.createClass({
       <div className="Nav">
         <div className="Nav--list">
           <ul>
-            <a href="#skills"><li>Skills</li></a>
-            <a href="#portfolio"><li>Portfolio</li></a>
-            <a href="#experience"><li>Experience</li></a>
-            <a href="#biography"><li>Biography</li></a>
+            <li><a href="#skills"><li>Skills</li></a></li>
+            <li><a href="#portfolio"><li>Portfolio</li></a></li>
+            <li><a href="#experience"><li>Experience</li></a></li>
+            <li><a href="#biography"><li>Biography</li></a></li>
           </ul>
         </div>
       </div>
